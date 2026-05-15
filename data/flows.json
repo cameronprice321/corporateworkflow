@@ -1,0 +1,47 @@
+[
+  {
+    "id": "729f5db7",
+    "from_id": "cbs001",
+    "to_id": "cpt001",
+    "label": "Fully Franked Dividend",
+    "amount": 200000,
+    "frequency": "Annual",
+    "notes": "Example: $200k fully franked dividend. Grossed up $266,667 incl. franking credits."
+  },
+  {
+    "id": "8d242061",
+    "from_id": "cpt001",
+    "to_id": "cam001",
+    "label": "Trust Distribution",
+    "amount": 135000,
+    "frequency": "Annual",
+    "notes": "Tax at marginal rate. Franking credit $33,750. Net tax payable ~$238."
+  },
+  {
+    "id": "a9d6e296",
+    "from_id": "cpt001",
+    "to_id": "bsu001",
+    "label": "Trust Distribution",
+    "amount": 131667,
+    "frequency": "Annual",
+    "notes": "Distribution to B-Sure Pty Ltd ATF (as trustee for CE Price Retirement Fund / SMSF). Bank account $485,402."
+  },
+  {
+    "id": "94e4fd33",
+    "from_id": "cam001",
+    "to_id": "crf001",
+    "label": "Super Contribution",
+    "amount": 30000,
+    "frequency": "Annual",
+    "notes": "Maximum concessional contribution. Taxed at 15% inside fund ($4,500 tax)."
+  },
+  {
+    "id": "2bc8b3e6",
+    "from_id": "crf001",
+    "to_id": "crf001",
+    "label": "Internal \u2014 bank & share trading",
+    "amount": 755091,
+    "frequency": "Annual",
+    "notes": "SMSF bank account balance $755,091. Includes share trading portfolio."
+  }
+]
